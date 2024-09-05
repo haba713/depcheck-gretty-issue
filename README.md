@@ -1,7 +1,7 @@
 ### Resolution
 
 Thanks to [aikebah][aikebah] for [sorting this out][resolution]. Setting the
-scan configuration `runtimeOnly` does exactly what is wanted here.
+scan configuration `runtimeClasspath` does exactly what is wanted here.
 
 ---
 

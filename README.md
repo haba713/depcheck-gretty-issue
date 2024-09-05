@@ -1,6 +1,15 @@
+### Resolution
+
+Thanks to [aikebah][aikebah] for [sorting this out][resolution]. Setting the
+scan configuration `runtimeOnly` does exactly what is wanted here.
+
+---
+
+### The original problem
+
 The project uses Gradle's [Gretty plugin][gretty] to run the web application:
 ```
-git clone git@github.com:haba713/depcheck-gretty-issue.git
+ git clone --branch before-fix git@github.com:haba713/depcheck-gretty-issue.git
 cd depcheck-gretty-issue/
 ./gradlew appRun
 ```
@@ -48,6 +57,8 @@ Why's that? Is there a fix or workaround for this?
 
 I created the issue [#6945][6945] (DependencyCheck → Gradle plugin).
 
+[aikebah]: (https://github.com/aikebah)
+[resolution]: https://github.com/jeremylong/DependencyCheck/issues/6945#issuecomment-2331225711
 [gretty]: https://gretty-gradle-plugin.github.io/gretty-doc/
 [dca]: https://jeremylong.github.io/DependencyCheck/dependency-check-gradle/configuration.html
 [6945]: https://github.com/jeremylong/DependencyCheck/issues/6945

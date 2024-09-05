@@ -22,3 +22,7 @@ gretty {
     httpPort = 8080
     contextPath = '/'
 }
+
+dependencyCheck {
+    scanConfigurations = [ 'runtimeOnly' ]
+}

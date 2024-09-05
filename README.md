@@ -57,7 +57,7 @@ Why's that? Is there a fix or workaround for this?
 
 I created the issue [#6945][6945] (DependencyCheck → Gradle plugin).
 
-[aikebah]: (https://github.com/aikebah)
+[aikebah]: https://github.com/aikebah
 [resolution]: https://github.com/jeremylong/DependencyCheck/issues/6945#issuecomment-2331225711
 [gretty]: https://gretty-gradle-plugin.github.io/gretty-doc/
 [dca]: https://jeremylong.github.io/DependencyCheck/dependency-check-gradle/configuration.html

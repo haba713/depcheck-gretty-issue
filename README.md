@@ -46,5 +46,8 @@ See the dependency-check report for more details.
 
 Why's that? Is there a fix or workaround for this?
 
+I created the issue [#6945][6945] (DependencyCheck → Gradle plugin).
+
 [gretty]: https://gretty-gradle-plugin.github.io/gretty-doc/
 [dca]: https://jeremylong.github.io/DependencyCheck/dependency-check-gradle/configuration.html
+[6945]: https://github.com/jeremylong/DependencyCheck/issues/6945
